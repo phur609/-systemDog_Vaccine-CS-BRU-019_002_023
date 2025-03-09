@@ -1,0 +1,40 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 15px;
+}
+
+.card-header {
+    border-radius: 15px 15px 0 0;
+}
+
+.btn-primary {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.table th {
+    background-color: #f2f7ff;
+    color: #333;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.list-group-item:hover a {
+    color: #0d6efd;
+}
+
+.alert {
+    margin-top: 15px;
+}
